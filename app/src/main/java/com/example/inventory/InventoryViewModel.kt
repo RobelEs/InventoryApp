@@ -9,8 +9,6 @@ import androidx.lifecycle.viewModelScope
 
 
 class InventoryViewModel(private val itemDao: ItemDao) : ViewModel() {
-
-
 }
 
 class InventoryViewModelFactory(private val itemDao: ItemDao) : ViewModelProvider.Factory {
